@@ -9,4 +9,14 @@
     <string name="bt_login_txt">Login</string>
     <string name="bt_register_txt">Daftar</string>
     <string name="txt_1">Tidak memiliki akun?</string>
+
+    <string name="Welcome1">NIKMATI</string>
+    <string name="Welcome2">LIBURANMU</string>
+    <string name="Welcome3">Dengan nyaman dan mudah</string>
+    <string name="NextButton">ini next Button</string>
+    <string name="reviewtext1">Beri Feedback</string>
+    <string name="howurpoint">Bagaimana penilaian anda?</string>
+    <string name="urcomment">Berikan komentar anda</string>
+    <string name="kolomkomentar">Berikan komentar anda</string>
+    <string name="givefeedback">Feedback Now</string>
 </resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GiveReviewActivity">
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/NextButton"
+        android:foregroundGravity="bottom"
+        app:fabSize="auto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_ios_24" />
+
+    <TextView
+        android:id="@+id/reviewText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reviewtext1"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.215"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_next"
+        app:layout_constraintVertical_bias="0.049" />
+
+    <TextView
+        android:id="@+id/howurpoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="408dp"
+        android:text="@string/howurpoint"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/reviewText1"
+        app:layout_constraintTop_toBottomOf="@+id/reviewText1"
+        app:layout_constraintVertical_bias="0.491" />
+
+    <TextView
+        android:id="@+id/urcomment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/urcomment"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/reviewText1"
+        app:layout_constraintTop_toBottomOf="@+id/howurpoint"
+        app:layout_constraintVertical_bias="0.242" />
+
+    <EditText
+        android:id="@+id/kolomkomentar"
+        android:layout_width="318dp"
+        android:layout_height="198dp"
+        android:padding="5dp"
+        android:hint="@string/kolomkomentar"
+        android:background="@drawable/bg_input_field"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/reviewText1"
+        app:layout_constraintTop_toBottomOf="@+id/urcomment"
+        app:layout_constraintVertical_bias="0.171" />
+
+    <Button
+        android:id="@+id/btn_feedback"
+        android:layout_width="match_parent"
+        android:layout_marginStart="40sp"
+        android:layout_marginEnd="40sp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button"
+        android:textColor="@color/white"
+        android:text="@string/givefeedback"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kolomkomentar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
