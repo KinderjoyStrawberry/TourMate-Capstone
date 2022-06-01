@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TourMate">
         <activity
+            android:name=".GiveReviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StarterPageActivity"
+            android:exported="false" />
+        <activity
             android:name=".LoginActivity"
             android:exported="false" />
         <activity
