@@ -2,11 +2,15 @@
     <string name="app_name">TourMate</string>
 
     <string name="selamat_datang_txt">Selamat Datang!</string>
+    <string name="selamat_mendaftar_txt">Mendaftar</string>
     <string name="sambutan_login_txt">Login ke akun kamu</string>
+    <string name="sambutan_register_txt">Silahkan masukkan data dibawah ini</string>
     <string name="email_txt">Email</string>
     <string name="hint_edt_email">user@example.com</string>
     <string name="password_txt">Password</string>
     <string name="bt_login_txt">Login</string>
     <string name="bt_register_txt">Daftar</string>
     <string name="txt_1">Tidak memiliki akun?</string>
+    <string name="hint_edt_nama">Nama</string>
+    <string name="nama_txt">Nama</string>
 </resources>
