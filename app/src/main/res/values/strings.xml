@@ -9,6 +9,10 @@
     <string name="bt_login_txt">Login</string>
     <string name="bt_register_txt">Daftar</string>
     <string name="txt_1">Tidak memiliki akun?</string>
+    <string name="selamat_mendaftar_txt">Mendaftar</string>
+    <string name="sambutan_register_txt">Silahkan masukkan data dibawah ini</string>
+    <string name="nama_txt">Nama</string>
+    <string name="hint_edt_nama">Mendaftar</string>
 
     <string name="Welcome1">NIKMATI</string>
     <string name="Welcome2">LIBURANMU</string>
