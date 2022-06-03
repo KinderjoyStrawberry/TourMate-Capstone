@@ -64,18 +64,6 @@
         app:layout_constraintStart_toStartOf="@+id/reviewText1"
         app:layout_constraintTop_toBottomOf="@+id/howurpoint"
         app:layout_constraintVertical_bias="0.242" />
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:layout_width="248dp"
-        android:layout_height="50dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/reviewText1"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.373">
-    </androidx.recyclerview.widget.RecyclerView>
-
     <EditText
         android:id="@+id/kolomkomentar"
         android:layout_width="318dp"
@@ -89,6 +77,21 @@
         app:layout_constraintStart_toStartOf="@+id/reviewText1"
         app:layout_constraintTop_toBottomOf="@+id/urcomment"
         app:layout_constraintVertical_bias="0.171" />
+
+    <androidx.appcompat.widget.AppCompatRatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:numStars="5"
+        android:rating="0"
+        android:stepSize="0.5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/reviewText1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39" />
 
     <Button
         android:id="@+id/btn_feedback"
