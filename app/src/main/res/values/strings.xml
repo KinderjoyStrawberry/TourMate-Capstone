@@ -4,6 +4,7 @@
     <string name="selamat_datang_txt">Selamat Datang!</string>
     <string name="sambutan_login_txt">Login ke akun kamu</string>
     <string name="email_txt">Email</string>
+    <string name="test">test saja</string>
     <string name="hint_edt_email">user@example.com</string>
     <string name="password_txt">Password</string>
     <string name="bt_login_txt">Login</string>
