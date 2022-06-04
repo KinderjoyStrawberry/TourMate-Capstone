@@ -10,4 +10,5 @@
 
 <!--  Custom Color  -->
     <color name="main_theme">#4A63A1</color>
+    <color name="main_grey">#A6A6A6</color>
 </resources>
