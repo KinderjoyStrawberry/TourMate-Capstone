@@ -10,19 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TourMate">
         <activity
-            android:name=".RegisterActivity"
+            android:name=".ui.MainHostActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main_host" />
+        <activity
+            android:name=".ui.RegisterActivity"
             android:exported="false" />
         <activity
-            android:name=".GiveReviewActivity"
+            android:name=".ui.GiveReviewActivity"
             android:exported="false" />
         <activity
-            android:name=".StarterPageActivity"
+            android:name=".ui.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".ui.StarterPageActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

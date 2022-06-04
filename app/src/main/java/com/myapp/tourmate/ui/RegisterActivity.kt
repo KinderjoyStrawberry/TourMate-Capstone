@@ -1,11 +1,12 @@
-package com.myapp.tourmate
+package com.myapp.tourmate.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.myapp.tourmate.R
 
-class LoginActivity : AppCompatActivity() {
+class RegisterActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login)
+        setContentView(R.layout.activity_register)
     }
 }
