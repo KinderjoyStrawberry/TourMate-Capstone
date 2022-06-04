@@ -51,32 +51,6 @@
         app:layout_constraintTop_toBottomOf="@+id/reviewText1"
         app:layout_constraintVertical_bias="0.491" />
 
-    <TextView
-        android:id="@+id/urcomment"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/urcomment"
-        android:textStyle="bold"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/reviewText1"
-        app:layout_constraintTop_toBottomOf="@+id/howurpoint"
-        app:layout_constraintVertical_bias="0.242" />
-    <EditText
-        android:id="@+id/kolomkomentar"
-        android:layout_width="318dp"
-        android:layout_height="198dp"
-        android:padding="5dp"
-        android:hint="@string/kolomkomentar"
-        android:background="@drawable/bg_input_field"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/reviewText1"
-        app:layout_constraintTop_toBottomOf="@+id/urcomment"
-        app:layout_constraintVertical_bias="0.171" />
 
     <androidx.appcompat.widget.AppCompatRatingBar
         android:id="@+id/ratingBar"
@@ -96,16 +70,18 @@
     <Button
         android:id="@+id/btn_feedback"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginStart="40sp"
         android:layout_marginEnd="40sp"
-        android:layout_height="wrap_content"
         android:background="@drawable/bg_button"
-        android:textColor="@color/white"
         android:text="@string/givefeedback"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/kolomkomentar" />
+        app:layout_constraintTop_toBottomOf="@+id/ratingBar"
+        app:layout_constraintVertical_bias="0.907" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
