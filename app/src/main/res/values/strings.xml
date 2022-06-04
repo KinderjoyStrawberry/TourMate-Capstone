@@ -24,6 +24,14 @@
     <string name="urcomment">Berikan komentar anda</string>
     <string name="kolomkomentar">Berikan komentar anda</string>
     <string name="givefeedback">Feedback Now</string>
+  
+    <string name="destinationName">Pantai Amed</string>
+    <string name="givereview">Give Review</string>
+    <string name="operation">Open :</string>
+    <string name="day">Everyday</string>
+    <string name="rate">4.0 of 5.0</string>
+    <string name="Review">Review</string>
+    <string name="NameRivew">USERNAME</string>
 
     <string name="title_activity_main_host">MainHostActivity</string>
     <string name="title_home">Home</string>
