@@ -24,7 +24,7 @@
     <string name="urcomment">Berikan komentar anda</string>
     <string name="kolomkomentar">Berikan komentar anda</string>
     <string name="givefeedback">Feedback Now</string>
-  
+
     <string name="destinationName">Pantai Amed</string>
     <string name="givereview">Give Review</string>
     <string name="operation">Open :</string>
@@ -41,4 +41,5 @@
     <string name="hint_search_txt">Masukkan nama tempat</string>
     <string name="tempat_populer_txt">Tempat Populer</string>
     <string name="bt_viewall_populer">View All</string>
+    <string name="location">Desa Kutuh</string>
 </resources>
