@@ -26,4 +26,8 @@
     <string name="rate">4.0 of 5.0</string>
     <string name="Review">Review</string>
     <string name="NameRivew">USERNAME</string>
+    <string name="popularplace">Populer Places</string>
+    <string name="search">Type A place Here</string>
+    <string name="destination">Desa Kutuh</string>
+    <string name="bookmark">Bookmark</string>
 </resources>
