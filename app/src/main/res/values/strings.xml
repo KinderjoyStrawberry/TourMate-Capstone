@@ -3,10 +3,10 @@
 
     <string name="selamat_datang_txt">Selamat Datang!</string>
     <string name="sambutan_login_txt">Masuk ke akun kamu</string>
-    <string name="email_txt">Email</string>
+    <string name="email_txt" translatable="false">Email</string>
     <string name="test">test saja</string>
-    <string name="hint_edt_email">user@example.com</string>
-    <string name="password_txt">Password</string>
+    <string name="hint_edt_email" translatable="false">user@example.com</string>
+    <string name="password_txt" translatable="false">Password</string>
     <string name="bt_login_txt">Masuk</string>
     <string name="bt_register_txt">Daftar</string>
     <string name="txt_1">Tidak memiliki akun?</string>
@@ -18,34 +18,34 @@
     <string name="Welcome1">NIKMATI</string>
     <string name="Welcome2">LIBURANMU</string>
     <string name="Welcome3">Dengan nyaman dan mudah</string>
-    <string name="NextButton">ini next Button</string>
+    <string name="NextButton" translatable="false">ini next Button</string>
     <string name="reviewtext1">Beri Feedback</string>
     <string name="howurpoint">Bagaimana penilaian anda?</string>
     <string name="urcomment">Berikan komentar anda</string>
     <string name="kolomkomentar">Berikan komentar anda</string>
     <string name="givefeedback">Beri Feedback</string>
 
-    <string name="destinationName">Pantai Amed</string>
+    <string name="destinationName" translatable="false">Pantai Amed</string>
     <string name="givereview">Beri Review</string>
     <string name="operation">Buka :</string>
     <string name="day">Setiap Hari</string>
-    <string name="rate">4.0</string>
-    <string name="Review">Review</string>
-    <string name="NameRivew">USERNAME</string>
+    <string name="rate" translatable="false">4.0</string>
+    <string name="Review" translatable="false">Review</string>
+    <string name="NameRivew" translatable="false">USERNAME</string>
 
-    <string name="title_activity_main_host">MainHostActivity</string>
-    <string name="title_home">Home</string>
-    <string name="title_bookmark">Bookmark</string>
-    <string name="title_setting">Setting</string>
-    <string name="txt_top">Ingin Pergi \nKemana Hari Ini?</string>
+    <string name="title_activity_main_host" translatable="false">MainHostActivity</string>
+    <string name="title_home" translatable="false">Home</string>
+    <string name="title_bookmark" translatable="false">Bookmark</string>
+    <string name="title_setting" translatable="false">Setting</string>
+    <string name="txt_top">Ingin Pergi  Kemana Hari Ini?</string>
     <string name="hint_search_txt">Masukkan nama tempat</string>
     <string name="tempat_populer_txt">Tempat Populer</string>
-    <string name="bt_viewall_populer">View All</string>
-    <string name="location">Desa Kutuh</string>
-    <string name="descloginbg">inibglogin</string>
+    <string name="bt_viewall_populer" translatable="false">View All</string>
+    <string name="location" translatable="false">Desa Kutuh</string>
+    <string name="descloginbg" translatable="false">inibglogin</string>
     <string name="nav">Navigasi</string>
-    <string name="rate2">of 5</string>
-    <string name="ovrview">Overview</string>
+    <string name="rate2" translatable="false">of 5</string>
+    <string name="ovrview" translatable="false">Overview</string>
     <string name="descdetail">Deskripsi</string>
     <string name="descdtl">Lorem Ipsum adalah contoh teks atau dummy dalam industri percetakan dan penataan huruf atau typesetting. Lorem Ipsum telah menjadi standar contoh teks sejak tahun 1500an, saat seorang tukang cetak yang tidak dikenal mengambil sebuah kumpulan teks dan mengacaknya untuk menjadi sebuah buku contoh huruf. Ia tidak hanya bertahan selama 5 abad, tapi juga telah beralih ke penataan huruf elektronik.</string>
 </resources>
