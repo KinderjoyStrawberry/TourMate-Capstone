@@ -17,8 +17,18 @@
         <entry key="..\:/Kuliah/BANGKIT YEAH BOI/GitHub/capsone/TourMate-Capstone/app/src/main/res/layout/activity_review_page.xml" value="0.33" />
         <entry key="..\:/Kuliah/BANGKIT YEAH BOI/GitHub/capsone/TourMate-Capstone/app/src/main/res/layout/activity_starter_page.xml" value="0.3463541666666667" />
         <entry key="..\:/Kuliah/BANGKIT YEAH BOI/GitHub/capsone/TourMate-Capstone/app/src/main/res/layout/item_row_review.xml" value="0.36041666666666666" />
+        <entry key="..\:/Kuliah/BANGKIT YEAH BOI/GitHub/new2/app/src/main/res/layout/activity_give_review.xml" value="0.36041666666666666" />
+        <entry key="..\:/Kuliah/BANGKIT YEAH BOI/GitHub/new2/app/src/main/res/layout/activity_login.xml" value="0.36041666666666666" />
+        <entry key="..\:/Kuliah/BANGKIT YEAH BOI/GitHub/new2/app/src/main/res/layout/activity_main_host.xml" value="0.36041666666666666" />
         <entry key="..\:/Kuliah/BANGKIT YEAH BOI/GitHub/new2/app/src/main/res/layout/activity_populer.xml" value="0.36041666666666666" />
-        <entry key="..\:/Kuliah/BANGKIT YEAH BOI/GitHub/new2/app/src/main/res/layout/item_row_populer.xml" value="0.36041666666666666" />
+        <entry key="..\:/Kuliah/BANGKIT YEAH BOI/GitHub/new2/app/src/main/res/layout/activity_register.xml" value="0.36041666666666666" />
+        <entry key="..\:/Kuliah/BANGKIT YEAH BOI/GitHub/new2/app/src/main/res/layout/activity_review_page.xml" value="0.36041666666666666" />
+        <entry key="..\:/Kuliah/BANGKIT YEAH BOI/GitHub/new2/app/src/main/res/layout/activity_starter_page.xml" value="0.36041666666666666" />
+        <entry key="..\:/Kuliah/BANGKIT YEAH BOI/GitHub/new2/app/src/main/res/layout/fragment_bookmark.xml" value="0.36041666666666666" />
+        <entry key="..\:/Kuliah/BANGKIT YEAH BOI/GitHub/new2/app/src/main/res/layout/fragment_home.xml" value="0.36041666666666666" />
+        <entry key="..\:/Kuliah/BANGKIT YEAH BOI/GitHub/new2/app/src/main/res/layout/fragment_setting.xml" value="0.36041666666666666" />
+        <entry key="..\:/Kuliah/BANGKIT YEAH BOI/GitHub/new2/app/src/main/res/layout/item_row_populer.xml" value="0.5" />
+        <entry key="..\:/Kuliah/BANGKIT YEAH BOI/GitHub/new2/app/src/main/res/layout/item_row_review.xml" value="0.36041666666666666" />
         <entry key="..\:/TestingProject/DicodingBangkit2022/Capstone/AppCoding/Branch/TourMate-Capstone/app/src/main/res/drawable-v24/ic_baseline_arrow_back_ios_24.xml" value="0.3675" />
         <entry key="..\:/TestingProject/DicodingBangkit2022/Capstone/AppCoding/Branch/TourMate-Capstone/app/src/main/res/drawable-v24/ic_baseline_navigate_next_24.xml" value="0.3675" />
         <entry key="..\:/TestingProject/DicodingBangkit2022/Capstone/AppCoding/Branch/TourMate-Capstone/app/src/main/res/drawable/bg_button.xml" value="0.3675" />
@@ -35,9 +45,8 @@
         <entry key="..\:/TestingProject/DicodingBangkit2022/Capstone/AppCoding/Branch/TourMate-Capstone/app/src/main/res/layout/activity_give_review.xml" value="0.36666666666666664" />
         <entry key="..\:/TestingProject/DicodingBangkit2022/Capstone/AppCoding/Branch/TourMate-Capstone/app/src/main/res/layout/activity_login.xml" value="0.33" />
         <entry key="..\:/TestingProject/DicodingBangkit2022/Capstone/AppCoding/Branch/TourMate-Capstone/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
-        <entry key="..\:/TestingProject/DicodingBangkit2022/Capstone/AppCoding/Branch/TourMate-Capstone/app/src/main/res/layout/activity_main_host.xml" value="0.33" />
+        <entry key="..\:/TestingProject/DicodingBangkit2022/Capstone/AppCoding/Branch/TourMate-Capstone/app/src/main/res/layout/activity_main_host.xml" value="0.36666666666666664" />
         <entry key="..\:/TestingProject/DicodingBangkit2022/Capstone/AppCoding/Branch/TourMate-Capstone/app/src/main/res/layout/activity_register.xml" value="0.36666666666666664" />
-        <entry key="..\:/TestingProject/DicodingBangkit2022/Capstone/AppCoding/Branch/TourMate-Capstone/app/src/main/res/layout/activity_review_page.xml" value="0.36666666666666664" />
         <entry key="..\:/TestingProject/DicodingBangkit2022/Capstone/AppCoding/Branch/TourMate-Capstone/app/src/main/res/layout/activity_starter_page.xml" value="0.36666666666666664" />
         <entry key="..\:/TestingProject/DicodingBangkit2022/Capstone/AppCoding/Branch/TourMate-Capstone/app/src/main/res/layout/detail.xml" value="0.36666666666666664" />
         <entry key="..\:/TestingProject/DicodingBangkit2022/Capstone/AppCoding/Branch/TourMate-Capstone/app/src/main/res/layout/fragment_bookmark.xml" value="0.36666666666666664" />
@@ -45,7 +54,6 @@
         <entry key="..\:/TestingProject/DicodingBangkit2022/Capstone/AppCoding/Branch/TourMate-Capstone/app/src/main/res/layout/fragment_home.xml" value="0.33" />
         <entry key="..\:/TestingProject/DicodingBangkit2022/Capstone/AppCoding/Branch/TourMate-Capstone/app/src/main/res/layout/fragment_notifications.xml" value="0.36666666666666664" />
         <entry key="..\:/TestingProject/DicodingBangkit2022/Capstone/AppCoding/Branch/TourMate-Capstone/app/src/main/res/layout/fragment_setting.xml" value="0.36666666666666664" />
-        <entry key="..\:/TestingProject/DicodingBangkit2022/Capstone/AppCoding/Branch/TourMate-Capstone/app/src/main/res/layout/item_row_review.xml" value="0.36666666666666664" />
         <entry key="..\:/TestingProject/DicodingBangkit2022/Capstone/AppCoding/Branch/TourMate-Capstone/app/src/main/res/layout/test.xml" value="0.36666666666666664" />
         <entry key="..\:/TestingProject/DicodingBangkit2022/Capstone/AppCoding/Branch/TourMate-Capstone/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36666666666666664" />
         <entry key="..\:/TestingProject/DicodingBangkit2022/Capstone/AppCoding/TourMate/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />

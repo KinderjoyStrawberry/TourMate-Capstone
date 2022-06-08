@@ -30,6 +30,7 @@
         android:paddingEnd="48dp"
         android:background="@drawable/bg_input_search"
         android:ems="16"
+        app:cardCornerRadius="15dp"
         android:hint="@string/hint_search_txt"
         android:drawableStart="@drawable/ic_baseline_search_24"
         android:layout_marginTop="40dp"
