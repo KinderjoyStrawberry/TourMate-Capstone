@@ -61,6 +61,6 @@
             card_view:layout_constraintTop_toBottomOf="@+id/destiname"
             card_view:layout_constraintVertical_bias="0.263"
             tools:text="@string/rate"
-            card_view:drawableEndCompat="@drawable/ic_baseline_star_24"/>
+            card_view:drawableStartCompat="@drawable/ic_baseline_star_24"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </com.google.android.material.card.MaterialCardView>

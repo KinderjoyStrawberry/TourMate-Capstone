@@ -44,4 +44,6 @@
     <string name="location">Desa Kutuh</string>
     <string name="descloginbg">inibglogin</string>
     <string name="bookmarktxt">Bookmark Now!</string>
+    <string name="nav">Navigasi</string>
+    <string name="rate2">of 5</string>
 </resources>
