@@ -16,6 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="8dp">
+
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="373dp"
@@ -32,10 +33,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/bg_text_item"
+            android:padding="4dp"
             android:textAlignment="center"
             android:textColor="@color/main_theme"
             android:textStyle="bold"
-            android:padding="4dp"
             card_view:layout_constraintBottom_toBottomOf="parent"
             card_view:layout_constraintEnd_toEndOf="parent"
             card_view:layout_constraintHorizontal_bias="0.053"
@@ -49,18 +50,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/bg_text_item"
+            android:gravity="center"
             android:padding="4dp"
             android:textAlignment="center"
             android:textColor="@color/main_theme"
             android:textStyle="bold"
-            android:gravity="center"
+            card_view:drawableStartCompat="@drawable/ic_baseline_star_24"
             card_view:layout_constraintBottom_toBottomOf="parent"
             card_view:layout_constraintEnd_toEndOf="@+id/destiname"
             card_view:layout_constraintHorizontal_bias="0.0"
             card_view:layout_constraintStart_toStartOf="@+id/destiname"
             card_view:layout_constraintTop_toBottomOf="@+id/destiname"
             card_view:layout_constraintVertical_bias="0.263"
-            tools:text="@string/rate"
-            card_view:drawableStartCompat="@drawable/ic_baseline_star_24"/>
+            tools:text="@string/rate" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </com.google.android.material.card.MaterialCardView>
