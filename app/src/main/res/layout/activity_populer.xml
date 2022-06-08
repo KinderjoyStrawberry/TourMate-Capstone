@@ -36,14 +36,18 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <EditText
-        android:id="@+id/editText"
-        android:layout_width="347dp"
-        android:layout_height="46dp"
-        android:background="@drawable/bg_input_field"
-        android:drawableStart="@drawable/ic_baseline_search_24"
+        android:id="@+id/search_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="48dp"
+        android:background="@drawable/bg_input_search"
+        android:ems="16"
         android:hint="@string/hint_search_txt"
-        android:padding="5dp"
-        android:textAlignment="center"
+        android:drawableStart="@drawable/ic_baseline_search_24"
+        android:layout_marginTop="5dp"
+        android:imeOptions="actionGo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.333"
@@ -55,11 +59,12 @@
         android:layout_width="362dp"
         android:layout_height="544dp"
         android:layout_marginBottom="4dp"
+        tools:listitem="@layout/item_row_populer"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/editText"
+        app:layout_constraintEnd_toEndOf="@+id/search_bar"
         app:layout_constraintHorizontal_bias="0.533"
-        app:layout_constraintStart_toStartOf="@+id/editText"
-        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintStart_toStartOf="@+id/search_bar"
+        app:layout_constraintTop_toBottomOf="@+id/search_bar"
         app:layout_constraintVertical_bias="0.692">
     </androidx.recyclerview.widget.RecyclerView>
 

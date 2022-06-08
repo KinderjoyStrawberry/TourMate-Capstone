@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TourMate">
         <activity
+            android:name=".ui.DetailPlaceActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.PopulerActivity"
             android:exported="false" />
         <activity
