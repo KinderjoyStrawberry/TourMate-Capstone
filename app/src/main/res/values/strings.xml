@@ -2,12 +2,12 @@
     <string name="app_name">TourMate</string>
 
     <string name="selamat_datang_txt">Selamat Datang!</string>
-    <string name="sambutan_login_txt">Login ke akun kamu</string>
+    <string name="sambutan_login_txt">Masuk ke akun kamu</string>
     <string name="email_txt">Email</string>
     <string name="test">test saja</string>
     <string name="hint_edt_email">user@example.com</string>
     <string name="password_txt">Password</string>
-    <string name="bt_login_txt">Login</string>
+    <string name="bt_login_txt">Masuk</string>
     <string name="bt_register_txt">Daftar</string>
     <string name="txt_1">Tidak memiliki akun?</string>
     <string name="selamat_mendaftar_txt">Mendaftar</string>
@@ -23,12 +23,12 @@
     <string name="howurpoint">Bagaimana penilaian anda?</string>
     <string name="urcomment">Berikan komentar anda</string>
     <string name="kolomkomentar">Berikan komentar anda</string>
-    <string name="givefeedback">Feedback Now</string>
+    <string name="givefeedback">Beri Feedback</string>
 
     <string name="destinationName">Pantai Amed</string>
-    <string name="givereview">Give Review</string>
-    <string name="operation">Open :</string>
-    <string name="day">Everyday</string>
+    <string name="givereview">Beri Review</string>
+    <string name="operation">Buka :</string>
+    <string name="day">Setiap Hari</string>
     <string name="rate">4.0</string>
     <string name="Review">Review</string>
     <string name="NameRivew">USERNAME</string>
@@ -43,10 +43,9 @@
     <string name="bt_viewall_populer">View All</string>
     <string name="location">Desa Kutuh</string>
     <string name="descloginbg">inibglogin</string>
-    <string name="bookmarktxt">Bookmark Now!</string>
     <string name="nav">Navigasi</string>
     <string name="rate2">of 5</string>
     <string name="ovrview">Overview</string>
-    <string name="descdetail">Description</string>
-    <string name="descdtl">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.</string>
+    <string name="descdetail">Deskripsi</string>
+    <string name="descdtl">Lorem Ipsum adalah contoh teks atau dummy dalam industri percetakan dan penataan huruf atau typesetting. Lorem Ipsum telah menjadi standar contoh teks sejak tahun 1500an, saat seorang tukang cetak yang tidak dikenal mengambil sebuah kumpulan teks dan mengacaknya untuk menjadi sebuah buku contoh huruf. Ia tidak hanya bertahan selama 5 abad, tapi juga telah beralih ke penataan huruf elektronik.</string>
 </resources>

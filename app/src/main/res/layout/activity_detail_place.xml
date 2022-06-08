@@ -145,30 +145,32 @@
             app:layout_constraintVertical_bias="1.0" />
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/textdesc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:text="@string/descdetail"
+            android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/btn_nav"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.003"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/textovrviw"
             app:layout_constraintTop_toBottomOf="@+id/textovrviw"
-            app:layout_constraintVertical_bias="0.121" />
+            app:layout_constraintVertical_bias="0.046" />
 
         <TextView
             android:id="@+id/descdtl"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
             android:padding="20dp"
             android:textSize="16sp"
             app:layout_constraintBottom_toTopOf="@+id/btn_nav"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView4"
+            app:layout_constraintTop_toBottomOf="@+id/textdesc"
             app:layout_constraintVertical_bias="0.0"
             tools:text="@string/descdtl" />
 
