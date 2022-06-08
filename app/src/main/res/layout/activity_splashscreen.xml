@@ -7,21 +7,6 @@
     android:background="@drawable/bgstarterpage"
     tools:context=".ui.StarterPageActivity">
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/btn_next"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/NextButton"
-        android:foregroundGravity="bottom"
-        app:fabSize="auto"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/Welcome3"
-        app:layout_constraintTop_toBottomOf="@+id/Welcome3"
-        app:layout_constraintVertical_bias="0.094"
-        app:srcCompat="@drawable/ic_baseline_navigate_next_24" />
-
     <TextView
         android:id="@+id/Welcome1"
         android:layout_width="wrap_content"
