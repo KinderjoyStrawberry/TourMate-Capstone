@@ -1,10 +1,9 @@
 <resources>
-    <string name="app_name">TourMate</string>
-
+    <string name="app_name" translatable="false">TourMate</string>
     <string name="selamat_datang_txt">Selamat Datang!</string>
     <string name="sambutan_login_txt">Masuk ke akun kamu</string>
     <string name="email_txt" translatable="false">Email</string>
-    <string name="test">test saja</string>
+    <string name="test" translatable="false">test saja</string>
     <string name="hint_edt_email" translatable="false">user@example.com</string>
     <string name="password_txt" translatable="false">Password</string>
     <string name="bt_login_txt">Masuk</string>

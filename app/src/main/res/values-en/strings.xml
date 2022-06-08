@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">TourMate</string>
     <string name="selamat_datang_txt">Welcome!</string>
     <string name="sambutan_login_txt">Login to your account</string>
     <string name="bt_login_txt">Login</string>
