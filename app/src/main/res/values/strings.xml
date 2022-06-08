@@ -42,4 +42,6 @@
     <string name="tempat_populer_txt">Tempat Populer</string>
     <string name="bt_viewall_populer">View All</string>
     <string name="location">Desa Kutuh</string>
+    <string name="descloginbg">inibglogin</string>
+    <string name="bookmarktxt">Bookmark Now!</string>
 </resources>
