@@ -25,7 +25,7 @@
         android:id="@+id/semuaTempatTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/semua_tempat_txt"
+        android:text="@string/seluruh_tempat_txt"
         android:textColor="@color/main_theme"
         android:textSize="35sp"
         android:textStyle="bold"

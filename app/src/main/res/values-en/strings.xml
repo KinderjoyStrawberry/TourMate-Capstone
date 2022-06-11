@@ -26,4 +26,7 @@
     <string name="nav">Navigation</string>
     <string name="descdetail">Description</string>
     <string name="descdtl">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.</string>
+    <string name="seluruh_tempat_txt">All Places</string>
+    <string name="bt_txt_switch">Dark Mode</string>
+    <string name="semua_tempat_txt">All Places</string>
 </resources>
