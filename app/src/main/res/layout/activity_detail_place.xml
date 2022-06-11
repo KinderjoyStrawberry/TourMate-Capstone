@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/detail_img"
     tools:context=".ui.DetailPlaceActivity">
 
     <ToggleButton
@@ -19,6 +18,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023" />
+
+    <ImageView
+        android:id="@+id/detailImg"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/detail_img"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="410dp"
@@ -50,6 +59,7 @@
                 android:text="@string/destinationName"
                 android:textSize="24sp"
                 android:textStyle="bold"
+                android:textColor="@color/main_theme"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.498"
@@ -63,6 +73,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/rate"
                 android:textStyle="bold"
+                android:textColor="@color/black"
                 app:drawableStartCompat="@drawable/ic_baseline_star_24"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -78,13 +89,14 @@
                 android:layout_marginStart="5dp"
                 android:gravity="center"
                 android:textStyle="bold"
+                android:textColor="@color/black"
                 app:layout_constraintBottom_toBottomOf="@+id/rating"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@+id/rating"
                 app:layout_constraintTop_toTopOf="@+id/rating"
                 app:layout_constraintVertical_bias="0.0"
-                tools:text="@string/rate2" />
+                android:text="@string/rate2" />
 
             <TextView
                 android:id="@+id/OperationDay"
@@ -106,6 +118,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/operation"
                 android:textStyle="bold"
+                android:textColor="@color/black"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.13"
@@ -122,6 +135,7 @@
             android:text="@string/Review"
             android:textSize="18sp"
             android:textStyle="bold"
+            android:textColor="@color/black"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.299"
@@ -152,6 +166,7 @@
             android:text="@string/descdetail"
             android:textSize="16sp"
             android:textStyle="bold"
+            android:textColor="@color/black"
             app:layout_constraintBottom_toTopOf="@+id/btn_nav"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -159,20 +174,26 @@
             app:layout_constraintTop_toBottomOf="@+id/textovrviw"
             app:layout_constraintVertical_bias="0.046" />
 
-        <TextView
-            android:id="@+id/descdtl"
+        <ScrollView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:padding="20dp"
-            android:textSize="16sp"
             app:layout_constraintBottom_toTopOf="@+id/btn_nav"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textdesc"
-            app:layout_constraintVertical_bias="0.0"
-            tools:text="@string/descdtl" />
+            app:layout_constraintVertical_bias="0.0">
+
+            <TextView
+                android:id="@+id/descdtl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:padding="20dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:text="@string/descdtl" />
+        </ScrollView>
 
         <Button
             android:id="@+id/btn_nav"
