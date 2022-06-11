@@ -10,12 +10,12 @@
         android:id="@+id/img_top_login"
         android:layout_width="match_parent"
         android:layout_height="200dp"
+        android:contentDescription="@string/descloginbg"
         android:scaleType="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:src="@drawable/img_top_login"
-        android:contentDescription="@string/descloginbg" />
+        tools:src="@drawable/img_top_login" />
 
     <TextView
         android:id="@+id/selamat_datang_txt"
@@ -66,18 +66,18 @@
         android:layout_marginStart="22dp"
         android:layout_marginTop="9dp"
         android:layout_marginEnd="22dp"
+        android:autofillHints="@string/hint_edt_email"
         android:background="@drawable/bg_input_field"
         android:ems="10"
-        android:textColor="@color/black"
         android:hint="@string/hint_edt_email"
         android:inputType="textEmailAddress"
         android:minHeight="48dp"
         android:paddingStart="10dp"
         android:paddingEnd="10dp"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/email_txt"
-        android:autofillHints="@string/hint_edt_email" />
+        app:layout_constraintTop_toBottomOf="@id/email_txt" />
 
     <TextView
         android:id="@+id/password_txt"
@@ -100,18 +100,18 @@
         android:layout_marginStart="22dp"
         android:layout_marginTop="9dp"
         android:layout_marginEnd="22dp"
+        android:autofillHints="@string/password_txt"
         android:background="@drawable/bg_input_field"
         android:ems="10"
-        android:textColor="@color/black"
         android:hint="@string/password_txt"
         android:inputType="textPassword"
         android:minHeight="48dp"
         android:paddingStart="10dp"
         android:paddingEnd="10dp"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/password_txt"
-        android:autofillHints="@string/password_txt" />
+        app:layout_constraintTop_toBottomOf="@id/password_txt" />
 
     <Button
         android:id="@+id/bt_login"
@@ -147,16 +147,16 @@
         android:id="@+id/bt_register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/bt_register_txt"
-        android:textColor="@color/main_theme"
-        android:textStyle="bold"
-        android:textSize="15sp"
         android:layout_marginTop="15dp"
         android:layout_marginEnd="50dp"
-        app:layout_constraintStart_toEndOf="@+id/textView5"
-        app:layout_constraintTop_toBottomOf="@id/bt_login"
+        android:text="@string/bt_register_txt"
+        android:textColor="@color/main_theme"
+        android:textSize="15sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"/>
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@id/bt_login" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
