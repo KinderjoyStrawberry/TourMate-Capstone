@@ -10,11 +10,11 @@
         android:id="@+id/img_top_login"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:scaleType="center"
+        android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:src="@drawable/img_top_register" />
+        android:src="@drawable/img_top_register" />
 
     <TextView
         android:id="@+id/selamat_datang_txt"

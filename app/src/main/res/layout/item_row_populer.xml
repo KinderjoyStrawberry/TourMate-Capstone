@@ -24,7 +24,7 @@
             card_view:layout_constraintEnd_toEndOf="parent"
             card_view:layout_constraintStart_toStartOf="parent"
             card_view:layout_constraintTop_toTopOf="parent"
-            tools:src="@drawable/detail_img" />
+            android:src="@drawable/detail_img" />
 
         <TextView
             android:id="@+id/destiname"
@@ -41,7 +41,7 @@
             card_view:layout_constraintStart_toStartOf="parent"
             card_view:layout_constraintTop_toTopOf="parent"
             card_view:layout_constraintVertical_bias="0.649"
-            tools:text="@string/destinationName" />
+            android:text="@string/destinationName" />
 
         <TextView
             android:id="@+id/textView3"
@@ -59,7 +59,7 @@
             card_view:layout_constraintStart_toStartOf="@+id/destiname"
             card_view:layout_constraintTop_toBottomOf="@+id/destiname"
             card_view:layout_constraintVertical_bias="0.263"
-            tools:text="@string/rate"
+            android:text="@string/rate"
             card_view:drawableStartCompat="@drawable/ic_baseline_star_24"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </com.google.android.material.card.MaterialCardView>
