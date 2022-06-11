@@ -39,6 +39,13 @@
     <string name="txt_top">Ingin Pergi  Kemana Hari Ini?</string>
     <string name="hint_search_txt">Masukkan nama tempat</string>
     <string name="tempat_populer_txt">Tempat Populer</string>
+
+    <string name="bt_viewall_populer">View All</string>
+    <string name="location">Desa Kutuh</string>
+    <string name="descloginbg">inibglogin</string>
+    <string name="bookmarktxt">Bookmark Now!</string>
+    <string name="seluruh_tempat_txt">Seluruh Tempat</string>
+
     <string name="bt_viewall_populer" translatable="false">View All</string>
     <string name="location" translatable="false">Desa Kutuh</string>
     <string name="descloginbg" translatable="false">inibglogin</string>
@@ -47,4 +54,5 @@
     <string name="ovrview" translatable="false">Overview</string>
     <string name="descdetail">Deskripsi</string>
     <string name="descdtl">Lorem Ipsum adalah contoh teks atau dummy dalam industri percetakan dan penataan huruf atau typesetting. Lorem Ipsum telah menjadi standar contoh teks sejak tahun 1500an, saat seorang tukang cetak yang tidak dikenal mengambil sebuah kumpulan teks dan mengacaknya untuk menjadi sebuah buku contoh huruf. Ia tidak hanya bertahan selama 5 abad, tapi juga telah beralih ke penataan huruf elektronik.</string>
+
 </resources>

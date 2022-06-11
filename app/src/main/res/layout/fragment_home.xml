@@ -12,55 +12,37 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="8dp"
-        android:text="@string/txt_top"
         android:textAlignment="viewStart"
-        android:textColor="@color/main_theme"
         android:textSize="40sp"
+        android:textColor="@color/main_theme"
         android:textStyle="bold"
+        android:text="@string/txt_top"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/edt_search"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:background="@drawable/bg_input_search"
-        android:drawableStart="@drawable/ic_baseline_search_24"
-        android:ems="16"
-        android:hint="@string/hint_search_txt"
-        android:imeOptions="actionGo"
-        android:minHeight="48dp"
-        android:paddingStart="15dp"
-        android:paddingEnd="48dp"
-        app:cardCornerRadius="15dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/txt_top" />
-
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/sectionPopuler"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
         android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="40dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/edt_search">
-
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_top">
         <TextView
             android:id="@+id/tempat_populer_txt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="20dp"
             android:text="@string/tempat_populer_txt"
+            android:textStyle="bold"
             android:textColor="@color/main_theme"
             android:textSize="24sp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@id/bt_viewall_populer"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/bt_viewall_populer"/>
 
         <TextView
             android:id="@+id/bt_viewall_populer"
@@ -71,17 +53,169 @@
             android:textColor="@color/main_grey"
             android:textSize="15sp"
             android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/tempat_populer_txt"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/sectionItemPopuler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintTop_toBottomOf="@id/sectionPopuler"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgHomePopuler"
+                android:layout_width="350dp"
+                android:layout_height="160dp"
+                android:src="@drawable/detail_img"
+                android:scaleType="centerCrop"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+            <TextView
+                android:id="@+id/destinamePopuler"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/bg_text_item"
+                android:textAlignment="center"
+                android:textColor="@color/main_theme"
+                android:textStyle="bold"
+                android:padding="4dp"
+                android:textSize="18sp"
+                tools:text="@string/destinationName"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/ratingDestinamePopuler"/>
+
+            <TextView
+                android:id="@+id/ratingDestinamePopuler"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_text_item"
+                android:layout_marginBottom="10dp"
+                android:padding="4dp"
+                android:textAlignment="center"
+                android:textColor="@color/main_theme"
+                android:textStyle="bold"
+                android:gravity="center"
+                tools:text="@string/rate"
+                android:foregroundGravity="center_horizontal"
+                app:layout_constraintStart_toStartOf="@id/destinamePopuler"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:drawableStartCompat="@drawable/ic_baseline_star_24" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/sectionAllPlace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sectionItemPopuler">
+
+        <TextView
+            android:id="@+id/semua_tempat_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:text="@string/seluruh_tempat_txt"
+            android:textColor="@color/main_theme"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/bt_viewall_place"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/bt_viewall_place"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="@string/bt_viewall_populer"
+            android:textColor="@color/main_grey"
+            android:textSize="15sp"
+            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@id/tempat_populer_txt"
+            app:layout_constraintStart_toEndOf="@id/semua_tempat_txt"
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:layout_width="match_parent"
-        android:layout_height="400dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+    <androidx.cardview.widget.CardView
+        android:id="@+id/sectionItemAllPlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintTop_toBottomOf="@id/sectionAllPlace"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgHomeAllPlace"
+                android:layout_width="350dp"
+                android:layout_height="160dp"
+                android:src="@drawable/img_top_register"
+                android:scaleType="centerCrop"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+            <TextView
+                android:id="@+id/destinameAllPlace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/bg_text_item"
+                android:textAlignment="center"
+                android:textColor="@color/main_theme"
+                android:textStyle="bold"
+                android:padding="4dp"
+                android:textSize="18sp"
+                tools:text="@string/destinationName"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/ratingDestinameAllPlace"/>
+
+            <TextView
+                android:id="@+id/ratingDestinameAllPlace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_text_item"
+                android:layout_marginBottom="10dp"
+                android:padding="4dp"
+                android:textAlignment="center"
+                android:textColor="@color/main_theme"
+                android:textStyle="bold"
+                android:gravity="center"
+                tools:text="@string/rate"
+                android:foregroundGravity="center_horizontal"
+                app:layout_constraintStart_toStartOf="@id/destinameAllPlace"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:drawableStartCompat="@drawable/ic_baseline_star_24" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
