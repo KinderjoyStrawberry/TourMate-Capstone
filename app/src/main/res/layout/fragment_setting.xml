@@ -115,7 +115,7 @@
         app:layout_constraintEnd_toEndOf="parent">
 
         <TextView
-            android:id="@+id/bt_theme"
+            android:id="@+id/bt_theme_setting"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
@@ -150,7 +150,7 @@
             android:paddingEnd="10dp"
             android:drawablePadding="20dp"
             android:gravity="center|start"
-            app:layout_constraintTop_toBottomOf="@id/bt_theme"
+            app:layout_constraintTop_toBottomOf="@id/bt_theme_setting"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
