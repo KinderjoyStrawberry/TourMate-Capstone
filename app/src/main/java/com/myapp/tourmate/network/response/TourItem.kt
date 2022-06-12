@@ -1,5 +1,9 @@
 package com.myapp.tourmate.network.response
 
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
+
+@Parcelize
 data class TourItem(
     val Category: String? = null,
     val City: String? = null,
@@ -12,4 +16,4 @@ data class TourItem(
     val Place_Name: String? = null,
     val Price: String? = null,
     val rating: String? = null
-)
+): Parcelable
