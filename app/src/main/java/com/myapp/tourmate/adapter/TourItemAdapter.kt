@@ -11,11 +11,22 @@ class TourItemAdapter: RecyclerView.Adapter<TourItemAdapter.PopulerViewHolder>()
 
     private val listTourItem = ArrayList<TourItem>()
     private val limit = 20
+    private lateinit var clickItem: ClickItem
+
+    interface ClickItem {
+        fun onItemClicked(tourItem: TourItem)
+    }
+
+    fun setClickItem(clickItem: ClickItem){
+        this.clickItem =clickItem
+    }
 
     inner class PopulerViewHolder(val binding: ItemRowPopulerBinding): RecyclerView.ViewHolder(binding.root) {
         fun bind(tourItem: TourItem){
             binding.apply {
-                root.setOnClickListener { return@setOnClickListener }
+                root.setOnClickListener {
+                    clickItem.onItemClicked(tourItem)
+                }
                 Glide.with(itemView).load(tourItem.img_url).centerCrop().into(binding.imgDesti)
                 destiname.text = tourItem.Place_Name
                 rating.text = tourItem.Rating

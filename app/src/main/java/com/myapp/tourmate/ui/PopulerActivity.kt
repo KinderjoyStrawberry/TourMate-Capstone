@@ -1,11 +1,13 @@
 package com.myapp.tourmate.ui
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.myapp.tourmate.adapter.TourItemAdapter
 import com.myapp.tourmate.databinding.ActivityPopulerBinding
+import com.myapp.tourmate.network.response.TourItem
 import com.myapp.tourmate.viewmodels.PopulerActivityViewModel
 
 class PopulerActivity : AppCompatActivity() {
@@ -18,6 +20,7 @@ class PopulerActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityPopulerBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        supportActionBar?.hide()
 
         initAdapter()
         initViewModel()
@@ -29,6 +32,14 @@ class PopulerActivity : AppCompatActivity() {
     private fun initAdapter() {
         adapter = TourItemAdapter()
         adapter.notifyDataSetChanged()
+        adapter.setClickItem(object: TourItemAdapter.ClickItem{
+            override fun onItemClicked(tourItem: TourItem) {
+                Intent(this@PopulerActivity, DetailPlaceActivity::class.java).also {
+                    it.putExtra(DetailPlaceActivity.EXTRA_DATA_PARCEL, tourItem)
+                    startActivity(it)
+                }
+            }
+        })
     }
 
     private fun initRecycleView() {
