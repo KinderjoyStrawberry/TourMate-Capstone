@@ -26,7 +26,7 @@ class HomeFragment : Fragment() {
         savedInstanceState: Bundle?,
     ): View {
         val homeViewModel =
-            ViewModelProvider(this).get(HomeViewModel::class.java)
+            ViewModelProvider(this)[HomeViewModel::class.java]
 
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val root: View = binding.root
@@ -37,7 +37,19 @@ class HomeFragment : Fragment() {
 
         binding.sectionItemPopuler.setOnClickListener { detailItemPopuler() }
         binding.sectionItemAllPlace.setOnClickListener { detailItemAllPlace() }
+        binding.btViewallPopuler.setOnClickListener { btViewAllPopuler() }
+        binding.btViewallPlace.setOnClickListener { btViewAllPlace() }
         return root
+    }
+
+    private fun btViewAllPlace() {
+
+    }
+
+    private fun btViewAllPopuler() {
+        Intent(activity, PopulerActivity::class.java).also {
+            startActivity(it)
+        }
     }
 
     private fun detailItemAllPlace() {
