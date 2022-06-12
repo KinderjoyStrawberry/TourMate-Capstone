@@ -53,7 +53,14 @@
     <string name="rate2" translatable="false">of 5</string>
     <string name="ovrview" translatable="false">Overview</string>
     <string name="descdetail">Deskripsi</string>
-    <string name="descdtl">Lorem Ipsum adalah contoh teks atau dummy dalam industri percetakan dan penataan huruf atau typesetting. Lorem Ipsum telah menjadi standar contoh teks sejak tahun 1500an, saat seorang tukang cetak yang tidak dikenal mengambil sebuah kumpulan teks dan mengacaknya untuk menjadi sebuah buku contoh huruf. Ia tidak hanya bertahan selama 5 abad, tapi juga telah beralih ke penataan huruf elektronik.</string>
-    <string name="bt_txt_switch" translatable="false">Dark Mode</string>
+    <string name="descdtl">Lorem Ipsum adalah contoh teks atau dummy dalam industri percetakan dan penataan huruf atau typesetting. Lorem Ipsum telah menjadi standar contoh teks sejak tahun 1500an, saat seorang tukang cetak yang tidak dikenal mengambil sebuah kumpulan teks dan mengacaknya untuk menjadi sebuah buku contoh huruf. Ia tidak hanya bertahan selama 5 abad, tapi juga telah beralih ke penataan huruf elektronik. </string>
+    <string name="bt_txt_switch">Mode Gelap</string>
+    <string name="semua_tempat_txt">Semua Tempat</string>
+    <string name="tematxt">Pengaturan Tema</string>
+    <string name="settingtxt">Pengaturan</string>
+    <string name="detailtxt">Detail Akun</string>
+    <string name="ganti_tema">Ganti Tema</string>
+    <string name="bahasa">Bahasa</string>
+    <string name="logout">Keluar</string>
 
 </resources>

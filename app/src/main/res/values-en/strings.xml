@@ -29,4 +29,10 @@
     <string name="seluruh_tempat_txt">All Places</string>
     <string name="bt_txt_switch">Dark Mode</string>
     <string name="semua_tempat_txt">All Places</string>
+    <string name="tematxt">Theme Setting</string>
+    <string name="settingtxt">Settings</string>
+    <string name="detailtxt">Account Detail</string>
+    <string name="ganti_tema">Change Theme</string>
+    <string name="bahasa">Language</string>
+    <string name="logout">Logout</string>
 </resources>

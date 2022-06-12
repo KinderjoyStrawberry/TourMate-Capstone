@@ -45,10 +45,17 @@ class SettingFragment : Fragment() {
 //        }
 
         binding.btThemeSetting.setOnClickListener { btChangeTheme() }
+        binding.btThemeSetting.setOnClickListener { btChangeLanguage() }
         return root
     }
 
     private fun btChangeTheme() {
+        Intent(activity, ThemeSettingActivity::class.java).also {
+            startActivity(it)
+        }
+    }
+
+    private fun btChangeLanguage() {
         Intent(activity, ThemeSettingActivity::class.java).also {
             startActivity(it)
         }
