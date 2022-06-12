@@ -15,6 +15,7 @@ class PopulerAdapter: RecyclerView.Adapter<PopulerAdapter.PopulerViewHolder>() {
         fun bind(tourItem: TourItem){
             binding.apply {
                 root.setOnClickListener { return@setOnClickListener }
+                Glide.with(itemView).load(tourItem.img_url).centerCrop().into(binding.imgDesti)
                 destiname.text = tourItem.Place_Name
                 rating.text = tourItem.Rating
             }

@@ -15,5 +15,6 @@ data class TourItem(
     val Place_Id: String,
     val Place_Name: String? = null,
     val Price: String? = null,
-    val Rating: String? = null
+    val Rating: String? = null,
+    val img_url: String? = null
 ): Parcelable
