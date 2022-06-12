@@ -16,7 +16,7 @@ class PopulerAdapter: RecyclerView.Adapter<PopulerAdapter.PopulerViewHolder>() {
             binding.apply {
                 root.setOnClickListener { return@setOnClickListener }
                 destiname.text = tourItem.Place_Name
-                rating.text = tourItem.rating
+                rating.text = tourItem.Rating
             }
         }
     }
@@ -37,5 +37,6 @@ class PopulerAdapter: RecyclerView.Adapter<PopulerAdapter.PopulerViewHolder>() {
     fun setListTourItem(tourItem: ArrayList<TourItem>){
         listTourItem.clear()
         listTourItem.addAll(tourItem)
+        notifyDataSetChanged()
     }
 }
