@@ -62,5 +62,6 @@
     <string name="ganti_tema">Ganti Tema</string>
     <string name="bahasa">Bahasa</string>
     <string name="logout">Keluar</string>
+    <string name="pantai_kutuh" translatable="false">Pantai Kutuh</string>
 
 </resources>
