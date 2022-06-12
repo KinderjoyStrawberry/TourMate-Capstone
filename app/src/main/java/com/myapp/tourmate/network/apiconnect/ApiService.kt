@@ -11,5 +11,5 @@ interface ApiService {
     fun getRecommeded(): Call<RecomendResponse>
 
     @GET("wisata")
-    fun getAllPlace(): Call<AllPlaceResponse<TourItem>>
+    fun getAllPlace(): Call<AllPlaceResponse>
 }

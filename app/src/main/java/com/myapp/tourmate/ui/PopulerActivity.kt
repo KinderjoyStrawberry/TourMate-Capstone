@@ -4,15 +4,14 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.myapp.tourmate.R
-import com.myapp.tourmate.adapter.PopulerAdapter
+import com.myapp.tourmate.adapter.TourItemAdapter
 import com.myapp.tourmate.databinding.ActivityPopulerBinding
 import com.myapp.tourmate.viewmodels.PopulerActivityViewModel
 
 class PopulerActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityPopulerBinding
-    private lateinit var adapter: PopulerAdapter
+    private lateinit var adapter: TourItemAdapter
     private lateinit var viewModel: PopulerActivityViewModel
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -28,7 +27,7 @@ class PopulerActivity : AppCompatActivity() {
     }
 
     private fun initAdapter() {
-        adapter = PopulerAdapter()
+        adapter = TourItemAdapter()
         adapter.notifyDataSetChanged()
     }
 

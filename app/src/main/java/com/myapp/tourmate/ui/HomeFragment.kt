@@ -43,7 +43,9 @@ class HomeFragment : Fragment() {
     }
 
     private fun btViewAllPlace() {
-
+        Intent(activity, AllPlaceActivity::class.java).also {
+            startActivity(it)
+        }
     }
 
     private fun btViewAllPopuler() {
@@ -54,8 +56,8 @@ class HomeFragment : Fragment() {
 
     private fun detailItemAllPlace() {
         Intent(activity, DetailPlaceActivity::class.java).also {
-            it.putExtra(DetailPlaceActivity.EXTRA_DESTINAME_PLACE, "Pantai AllPlace")
-            it.putExtra(DetailPlaceActivity.EXTRA_DESC_PLACE, "Testing lorem ipsum dolores")
+            it.putExtra(DetailPlaceActivity.EXTRA_DESTINAME_PLACE, "Pantai Kutuh")
+            it.putExtra(DetailPlaceActivity.EXTRA_DESC_PLACE, "Pantai Pandawa Kutuh ini merupakan salah satu pantai terindah di Bali yang berada di Desa Kutuh, Bali. Disini Anda bisa melihat keindahan pantainya dari dekat ataupun dari atas tebing. Karena disekitar tepi lautnya terdapat sebuah tebing-tebing alami yang bakal menjadi spot Instagrammable para wisatawan yang berkunjung ke sini.")
             it.putExtra(DetailPlaceActivity.EXTRA_IMG_PLACE, "https://images.unsplash.com/photo-1562428258-806dca6784bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1233&q=80")
             startActivity(it)
         }
@@ -63,8 +65,8 @@ class HomeFragment : Fragment() {
 
     private fun detailItemPopuler() {
         Intent(activity, DetailPlaceActivity::class.java).also {
-            it.putExtra(DetailPlaceActivity.EXTRA_DESTINAME_PLACE, "Pantai Populer")
-            it.putExtra(DetailPlaceActivity.EXTRA_DESC_PLACE, "Testing lorem ipsum dolores")
+            it.putExtra(DetailPlaceActivity.EXTRA_DESTINAME_PLACE, "Pantai Amed")
+            it.putExtra(DetailPlaceActivity.EXTRA_DESC_PLACE, "Pantai Amed dikenal memiliki keindahan bawah laut yang menakjubkan di Pulau Bali yang mempu memikat hati pengunjung. Surga tersembunyi yang menjadi tujuan terbaik pecinta rekreasi Diving dan Snorkling.")
             it.putExtra(DetailPlaceActivity.EXTRA_IMG_PLACE, "https://images.unsplash.com/photo-1515404929826-76fff9fef6fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")
             startActivity(it)
         }

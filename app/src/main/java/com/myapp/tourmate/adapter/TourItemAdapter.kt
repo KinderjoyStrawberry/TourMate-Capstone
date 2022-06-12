@@ -7,9 +7,10 @@ import com.bumptech.glide.Glide
 import com.myapp.tourmate.databinding.ItemRowPopulerBinding
 import com.myapp.tourmate.network.response.TourItem
 
-class PopulerAdapter: RecyclerView.Adapter<PopulerAdapter.PopulerViewHolder>() {
+class TourItemAdapter: RecyclerView.Adapter<TourItemAdapter.PopulerViewHolder>() {
 
     private val listTourItem = ArrayList<TourItem>()
+    private val limit = 20
 
     inner class PopulerViewHolder(val binding: ItemRowPopulerBinding): RecyclerView.ViewHolder(binding.root) {
         fun bind(tourItem: TourItem){
@@ -32,7 +33,11 @@ class PopulerAdapter: RecyclerView.Adapter<PopulerAdapter.PopulerViewHolder>() {
     }
 
     override fun getItemCount(): Int {
-        return listTourItem.size
+        return if (listTourItem.size >= limit){
+            limit
+        }else{
+            listTourItem.size
+        }
     }
 
     fun setListTourItem(tourItem: ArrayList<TourItem>){
