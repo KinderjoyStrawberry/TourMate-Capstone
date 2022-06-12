@@ -86,6 +86,5 @@ We are very open to any input, therefore we want to make contributing to this pr
 - Proposing new features
 - Becoming a maintainer
 
-If you think something important is missing or should be different based on your experience, we'd love to have you contribute to this project. If you have suggestions for improving these apps, please [contact](https://github.com/AgungP88/getloc-apps#Contact) the existing ones.
-
+If you think something important is missing or should be different based on your experience, we'd love to have you contribute to this project. 
 <!-- reference https://github.com/alexandresanlim/Badges4-README.md-Profile -->
