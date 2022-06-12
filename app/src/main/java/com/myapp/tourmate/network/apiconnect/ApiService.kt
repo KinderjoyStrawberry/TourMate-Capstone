@@ -1,6 +1,9 @@
 package com.myapp.tourmate.network.apiconnect
 
 import androidx.viewbinding.BuildConfig
+import com.myapp.tourmate.network.response.AllPlaceResponse
+import com.myapp.tourmate.network.response.RecomendResponse
+import com.myapp.tourmate.network.response.TourItem
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Headers
@@ -31,4 +34,10 @@ interface ApiService {
 //    fun getFollowing(
 //        @Path("username") username: String?
 //    ): Call<List<ItemsItem>>
+
+    @GET("rekomendasi")
+    fun getRecommeded(): Call<RecomendResponse<TourItem>>
+
+    @GET("wisata")
+    fun getAllPlace(): Call<AllPlaceResponse<TourItem>>
 }
