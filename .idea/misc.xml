@@ -3,6 +3,26 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Kuliah/BANGKIT YEAH BOI/GitHub/New3/app/src/main/res/drawable/bg_detail.xml" value="0.192" />
+        <entry key="..\:/Kuliah/BANGKIT YEAH BOI/GitHub/New3/app/src/main/res/drawable/ic_launcherAPK_background.xml" value="0.3235" />
+        <entry key="..\:/Kuliah/BANGKIT YEAH BOI/GitHub/New3/app/src/main/res/drawable/ic_tourmate_background.xml" value="0.3235" />
+        <entry key="..\:/Kuliah/BANGKIT YEAH BOI/GitHub/New3/app/src/main/res/layout/activity_all_place.xml" value="0.27219202898550726" />
+        <entry key="..\:/Kuliah/BANGKIT YEAH BOI/GitHub/New3/app/src/main/res/layout/activity_detail_place.xml" value="0.36041666666666666" />
+        <entry key="..\:/Kuliah/BANGKIT YEAH BOI/GitHub/New3/app/src/main/res/layout/activity_give_review.xml" value="0.36041666666666666" />
+        <entry key="..\:/Kuliah/BANGKIT YEAH BOI/GitHub/New3/app/src/main/res/layout/activity_language_setting.xml" value="0.36041666666666666" />
+        <entry key="..\:/Kuliah/BANGKIT YEAH BOI/GitHub/New3/app/src/main/res/layout/activity_login.xml" value="0.36041666666666666" />
+        <entry key="..\:/Kuliah/BANGKIT YEAH BOI/GitHub/New3/app/src/main/res/layout/activity_main_host.xml" value="0.36041666666666666" />
+        <entry key="..\:/Kuliah/BANGKIT YEAH BOI/GitHub/New3/app/src/main/res/layout/activity_populer.xml" value="0.36041666666666666" />
+        <entry key="..\:/Kuliah/BANGKIT YEAH BOI/GitHub/New3/app/src/main/res/layout/activity_register.xml" value="0.36041666666666666" />
+        <entry key="..\:/Kuliah/BANGKIT YEAH BOI/GitHub/New3/app/src/main/res/layout/activity_review_page.xml" value="0.36041666666666666" />
+        <entry key="..\:/Kuliah/BANGKIT YEAH BOI/GitHub/New3/app/src/main/res/layout/activity_splashscreen.xml" value="0.36041666666666666" />
+        <entry key="..\:/Kuliah/BANGKIT YEAH BOI/GitHub/New3/app/src/main/res/layout/activity_theme_setting.xml" value="0.36041666666666666" />
+        <entry key="..\:/Kuliah/BANGKIT YEAH BOI/GitHub/New3/app/src/main/res/layout/fragment_bookmark.xml" value="0.36041666666666666" />
+        <entry key="..\:/Kuliah/BANGKIT YEAH BOI/GitHub/New3/app/src/main/res/layout/fragment_home.xml" value="0.36041666666666666" />
+        <entry key="..\:/Kuliah/BANGKIT YEAH BOI/GitHub/New3/app/src/main/res/layout/fragment_setting.xml" value="0.25" />
+        <entry key="..\:/Kuliah/BANGKIT YEAH BOI/GitHub/New3/app/src/main/res/layout/item_row_populer.xml" value="0.36041666666666666" />
+        <entry key="..\:/Kuliah/BANGKIT YEAH BOI/GitHub/New3/app/src/main/res/layout/item_row_review.xml" value="0.36041666666666666" />
+        <entry key="..\:/Kuliah/BANGKIT YEAH BOI/GitHub/New3/app/src/main/res/mipmap-anydpi-v26/ic_launcherAPK_round.xml" value="0.192" />
         <entry key="..\:/Kuliah/BANGKIT YEAH BOI/GitHub/capsone/TourMate-Capstone/app/src/main/res/drawable-v24/ic_baseline_arrow_back_ios_24.xml" value="0.2635" />
         <entry key="..\:/Kuliah/BANGKIT YEAH BOI/GitHub/capsone/TourMate-Capstone/app/src/main/res/drawable-v24/ic_baseline_navigate_next_24.xml" value="0.2635" />
         <entry key="..\:/Kuliah/BANGKIT YEAH BOI/GitHub/capsone/TourMate-Capstone/app/src/main/res/drawable/bg_button.xml" value="0.2635" />

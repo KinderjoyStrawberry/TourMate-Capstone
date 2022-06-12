@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
+import android.provider.Settings
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -45,7 +46,8 @@ class SettingFragment : Fragment() {
 //        }
 
         binding.btThemeSetting.setOnClickListener { btChangeTheme() }
-        binding.btThemeSetting.setOnClickListener { btChangeLanguage() }
+        binding.btLanguage.setOnClickListener { btChangeLanguage() }
+
         return root
     }
 
@@ -56,8 +58,8 @@ class SettingFragment : Fragment() {
     }
 
     private fun btChangeLanguage() {
-        Intent(activity, ThemeSettingActivity::class.java).also {
-            startActivity(it)
+        binding.btLanguage.setOnClickListener {
+            startActivity(Intent(Settings.ACTION_LOCALE_SETTINGS))
         }
     }
 
