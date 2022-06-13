@@ -76,7 +76,7 @@ In our project is divided into four branches.
 
 # API Documentation
 
-For API documentation, see the following link [RESTful APIs TourMate]()
+For API documentation, see the following link [RESTful APIs TourMate](https://github.com/KinderjoyStrawberry/TourMate-Capstone/tree/cloud-computing)
 
 # Contributing
 
