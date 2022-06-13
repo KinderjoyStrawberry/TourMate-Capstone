@@ -28,7 +28,9 @@ Before traveling, usually we will make a plan in advance about the location to b
 
 In our project is divided into four branches.
 
-1. 
+1. [Mobile Development](https://github.com/KinderjoyStrawberry/TourMate-Capstone/tree/main)
+2. [Cloud Computing](https://github.com/KinderjoyStrawberry/TourMate-Capstone/tree/cloud-computing)
+3. [Machine Learning](https://github.com/KinderjoyStrawberry/TourMate-Capstone/tree/machine-learning)
 
 # Getting Started
 
@@ -44,15 +46,15 @@ In our project is divided into four branches.
  
 # Usage
 
-- How to find the nearest tourist spots
+- How to find the recommend tourist spots
 
   1.  Open TourMate application
-  2.  Click on search button
+  2.  Click on View All text button in Popular Section
   3.  TourMate will recommend you the tourist spots
 
 # Product
 
-1. 
+1. [TourMate APK](https://drive.google.com/drive/folders/1jXEtg92Cjq-qCIT4gKhM5DJALrv3iUol?usp=sharing)
    <br>
 
 # Technology Used
